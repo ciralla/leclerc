@@ -6,7 +6,7 @@ body {
     background-color: #f4f4f4;
 }
 header {
-    background: #333;
+  background-color: rgb(158, 11, 11);
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -144,6 +144,34 @@ header {
     text-align: center;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+  }
+
+  #bottone {
+    border-radius: 2vh 0vh 2vh 0vh;
+    padding: 1.1vh;
+    border: 0px;
+    color: white;
+    background-color: rgb(231, 14, 14);
+  }
+  #bottone:hover{
+    background-color: rgb(158, 11, 11);
+    box-shadow: 0 0 10px rgba(231, 14, 14, .8);
+  }
+  
+  .card-body-1 {
+    height: 615px;
+  }
+  .card-body-3 {
+    height: 325px;
+  }
+  .card-body-4 {
+    height: 350px;
+  }
+  .card-body-2, .card-body-5 {
+    height: 275px;
+  }
+  .card-body-1, .card-body-2, .card-body-2, .card-body-3, .card-body-4, .card-body-5 {
+    padding: 5%;
   }
 
   .btn-bd-primary {
